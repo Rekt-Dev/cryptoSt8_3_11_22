@@ -81,12 +81,16 @@ export default function App() {
 
   //const loggedIn
   async function getData() {
+    const dogeCoinPrice = () => {
+      if (element.name === "Dogecoin") {
+        console.log("this is foreach on the array for Dogecoin", element.price);
+      }
+    };
     console.log(`getData activ8d`);
 
     /* const apiKey =
       "coinrankingdfa125c1105b3ec3b9af03ab2268054ae4a3c06015b4b547";
- */ const url =
-      "https://api.coinranking.com/v2/coins";
+ */ const url = "https://api.coinranking.com/v2/coins";
     const corsAnywhere = "https://cors-anywhere.herokuapp.com/";
 
     /*  const queryString = new URLSearchParams({
@@ -107,8 +111,10 @@ export default function App() {
           console.log("RESPONSE SUCCESS !!!");
           console.log(`this is btcIcon ${btcIcon}`);
 
-          console.log(coins);
-          coins.forEach((element) => console.log(element));
+          console.log("this is the coins variable", coins);
+          coins.forEach((element) => {
+            dogeCoinPrice;
+          });
 
           console.log(`btcs price: ${coins[0].price}`);
           setBtcsPrice(coins[0].price);
@@ -220,7 +226,7 @@ export default function App() {
                 solIcon,
                 dogeIcon,
                 dotIcon,
-                daiIcon
+                daiIcon,
               ]}
               obj={currencies}
             />
@@ -258,7 +264,7 @@ export default function App() {
                 dotsPrice,
                 maticsPrice,
                 daisPrice,
-                btcIcon
+                btcIcon,
               ]}
               function={getData}
             />
@@ -300,7 +306,7 @@ export default function App() {
                 dogeIcon,
                 dotIcon,
                 daiIcon,
-                dataMessari
+                dataMessari,
               ]}
               obj={currencies}
             />
