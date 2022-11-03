@@ -204,11 +204,11 @@ export default function App() {
     <div className="App">
       <div>
         <div>
-          {coins
-            ? coins.map((coin, index) => (
-                <Card index={coin.symbol} coin={coin.name} />
+          {/* {coins
+            ? coins.map((element, index) => (
+                <Card index={coin.symbol} element={element} />
               ))
-            : "No data bro"}
+            : "No data bro"} */}
         </div>
 
         <div className="Header justifyCenter">
