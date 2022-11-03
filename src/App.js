@@ -25,6 +25,11 @@ import { MarketData } from "./components/MarketData";
 //import {query} from "./services/fetch"
 //import cmc from "./services/cmc";
 export default function App() {
+  const dogeCoinPrice = () => {
+    if (element.name === "Dogecoin") {
+      console.log("this is foreach on the array for Dogecoin", element.price);
+    }
+  };
   const [dataMessari, setDataMessari] = useState({});
   const [mcapBtc, setMcapBtc] = useState("btcs Mcap");
   const [btcIcon, setBtcIcon] = useState("linkBtc");
@@ -81,11 +86,6 @@ export default function App() {
 
   //const loggedIn
   async function getData() {
-    const dogeCoinPrice = () => {
-      if (element.name === "Dogecoin") {
-        console.log("this is foreach on the array for Dogecoin", element.price);
-      }
-    };
     console.log(`getData activ8d`);
 
     /* const apiKey =
