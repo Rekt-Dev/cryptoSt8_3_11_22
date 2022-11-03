@@ -202,7 +202,15 @@ export default function App() {
   return (
     <div className="App">
       <div>
-        <div>{(mappedCoinsArray = coins.map((x) => x * 2))};</div>
+        <div>{coins
+        ? coins.map((coin,index) => (
+          <Card key={index} coin={coin}/>
+        ))
+        : "No data bro"
+
+        
+        </div>
+
         <div className="Header justifyCenter">
           <Header />
           <div className="flexRow">
@@ -233,7 +241,6 @@ export default function App() {
 
           <Mcap function={getData} mcapBtc={mcapBtc} joseph={coinMcapName} />
         </div>
-
         <div
           onClick={() => console.log("i was clicked ticker names")}
           className="tickerNames"
