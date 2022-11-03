@@ -59,6 +59,7 @@ export default function App() {
   const [daisPrice, setDaisPrice] = useState([]);
 
   const navigate = useNavigate();
+  const mappedCoinsArray = [];
   // this is  for running the same getData but for the first time, (i.e component did mount), the depedencyarray[] is the thing that is making the useEffect trigger only once.coz there are none
   useEffect(() => {
     const oneTimer = setTimeout(() => {
@@ -112,9 +113,6 @@ export default function App() {
           console.log(`this is btcIcon ${btcIcon}`);
 
           console.log("this is the coins variable", coins);
-          coins.forEach((element) => {
-            dogeCoinPrice;
-          });
 
           console.log(`btcs price: ${coins[0].price}`);
           setBtcsPrice(coins[0].price);
@@ -204,6 +202,7 @@ export default function App() {
   return (
     <div className="App">
       <div>
+        <div>{(mappedCoinsArray = coins.map((x) => x * 2))};</div>
         <div className="Header justifyCenter">
           <Header />
           <div className="flexRow">
