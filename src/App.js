@@ -202,13 +202,10 @@ export default function App() {
   return (
     <div className="App">
       <div>
-        <div>{coins
-        ? coins.map((coin,index) => (
-          <Card key={index} coin={coin}/>
-        ))
-        : "No data bro"
-
-        
+        <div>
+          {coins
+            ? coins.map((coin, index) => <Card key={index} coin={coin} />)
+            : "No data bro"}
         </div>
 
         <div className="Header justifyCenter">
