@@ -77,6 +77,7 @@ export default function App() {
       getData();
       getDataMessari();
       setDataMessari(getDataMessari());
+      console.log(getDataMessari);
       // setObj(coins);
       setCoins(coins);
 
@@ -203,9 +204,11 @@ export default function App() {
     <div className="App">
       <div>
         <div>
-          {coins
+          {/*           coins:{coins[1].price}
+           */}{" "}
+          {/*  {coins
             ? coins.map((coin, index) => <Card key={index} coin={coin} />)
-            : "No data bro"}
+            : "No data bro"} */}
         </div>
 
         <div className="Header justifyCenter">

@@ -19,19 +19,19 @@ export const BasicCharts = (props) => {
       bgColor: "#ffffff",
       bgAlpha: "70",
       baseFont: "Roboto",
-      baseFontSize: "14",
+      baseFontSicoinse: "14",
       showAlternateVGridColor: "1",
       alternateVGridAlpha: "5",
-      labelFontSize: "15",
-      captionFontSize: "20",
-      subCaptionFontSize: "16",
+      labelFontSicoinse: "15",
+      captionFontSicoinse: "20",
+      subCaptionFontSicoinse: "16",
       toolTipColor: "#000000",
       toolTipBgColor: "#ffffff",
       toolTipAlpha: "90",
       captionFontBold: "0",
       subCaptionFontBold: "0",
       paletteColors: "#8E24AA",
-      valueFontSize: "13",
+      valueFontSicoinse: "13",
       valueFontBold: "0",
       animation: "0",
       divLineAlpha: "15",
@@ -57,7 +57,7 @@ export const BasicCharts = (props) => {
         value: "2140000"
       },
       {
-        label: "Amazon",
+        label: "Amacoinson",
         value: "1830000"
       },
       {
@@ -101,7 +101,7 @@ export const BasicCharts = (props) => {
           <div>{props.coins[11]}</div>
 
           <Card
-            coinss={[
+            coins={[
               props.coins[0],
               props.coins[1],
               props.coins.bnbsPrice,
@@ -112,7 +112,7 @@ export const BasicCharts = (props) => {
               props.coins.dotsPrice,
               props.coins.maticsPrice,
               props.coins.daisPrice,
-              props.coins[10]
+              props.coins[10],
             ]}
           />
         </div>
@@ -122,7 +122,7 @@ export const BasicCharts = (props) => {
         {/*         <Swiper />
          */}
       </div>
-      <div>{}</div>
+      <div></div>
     </div>
   );
 };
