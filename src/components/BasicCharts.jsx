@@ -99,22 +99,8 @@ export const BasicCharts = (props) => {
       <div>
         <div>
           <div>{props.coins[11]}</div>
-
-          <Card
-            coins={[
-              props.coins[0],
-              props.coins[1],
-              props.coins.bnbsPrice,
-              props.coins.xrpeesPrice,
-              props.coins.adasPrice,
-              props.coins.solsPrice,
-              props.coins.dogesPrice,
-              props.coins.dotsPrice,
-              props.coins.maticsPrice,
-              props.coins.daisPrice,
-              props.coins[10],
-            ]}
-          />
+          {/*           <Card />
+           */}{" "}
         </div>
       </div>
 
