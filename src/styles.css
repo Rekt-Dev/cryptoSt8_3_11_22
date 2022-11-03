@@ -1,0 +1,348 @@
+.App {
+  text-align: center;
+  font-weight: 500;
+  display: flex;
+  font-family: "Times New Roman", Times, serif;
+  background-color: rgb(30, 30, 30);
+  font-smooth: always;
+  color: white;
+  justify-content: center;
+}
+.form {
+  max-width: 30rem;
+}
+.FearnGreed {
+  width: 2px;
+  height: 15 rem;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.formLabel {
+  margin-bottom: 0.25rem;
+}
+
+.formField {
+  padding: 0.5rem;
+}
+
+.formFieldError {
+  border: 1px solid #e11d48;
+}
+
+.formFieldErrorMessage {
+  color: #e11d48;
+}
+
+.formActions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.formSubmitBtn {
+  padding: 0.5rem 0.7rem;
+  min-width: 5rem;
+  background-color: #9333ea;
+  color: #f3e8ff;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.User {
+  padding: 10px;
+  margin: 10px;
+  border: 2px groove #1c6ea4;
+  box-shadow: 3px 3px 15px 12px #000000;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  width: 14rem;
+  height: 20rem;
+}
+.justifyCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Tickers {
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #1c6ea4;
+  display: flex;
+  flex-direction: row;
+  width: 75rem;
+  height: 7rem;
+  border-radius: 10px;
+  font-size: 16px;
+}
+.Notifs {
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #1c6ea4;
+  display: flex;
+  flex-direction: row;
+  height: 7rem;
+  width: 17rem;
+}
+
+.Fear {
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #1c6ea4;
+  height: 12rem;
+  width: 8%;
+}
+.Liveprices {
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #1c6ea4;
+  width: 16rem;
+  height: 16rem;
+  box-shadow: 3px 3px 10px 10px #7aacce;
+  font-size: 10px;
+}
+.Winlose {
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #1c6ea4;
+  width: 16rem;
+  height: 16rem;
+  box-shadow: 3px 3px 10px 10px #2c3f6d;
+}
+
+.Goi {
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #1c6ea4;
+  width: 16rem;
+  height: 16rem;
+  box-shadow: 3px 3px 10px 10px #2c3f6d;
+}
+.Liquidations {
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #1c6ea4;
+  height: 16rem;
+  width: 16rem;
+  box-shadow: 3px 3px 15px 12px #000000;
+}
+.Charts {
+  padding: 10px;
+  margin: 10px;
+  border: 3px solid #1d5ab9;
+  height: 16rem;
+  border: 3px groove #1c6ea4;
+  border-radius: 6px;
+  box-shadow: 3px 3px 15px 12px #000000;
+  border-color: coral;
+  align-items: left;
+  justify-content: left;
+  box-shadow: 3px 3px 10px 10px #2c3f6d;
+
+  border: 2px solid #1c6ea4;
+  width: 40rem;
+  height: 53rem;
+}
+.Card {
+  border: 5px solid rgb(32, 216, 87);
+  height: 30%;
+  padding: 5px;
+  display: flex;
+  flex-wrap: column;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.wrapper {
+  width: fit-content;
+  max-width: 100px;
+  height: fit-content;
+  border: 2px solid rgb(134, 133, 133);
+  margin-top: 10px;
+  margin-left: 10px;
+  background: white;
+  text-align: left;
+
+  /* max-height: 100px; */
+}
+.Mcap {
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #1c6ea4;
+  height: 7rem;
+  width: 25rem;
+  box-shadow: 2px 2px 3px 3px #0c4d79;
+}
+.BestPerformers {
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #1c6ea4;
+  width: 16rem;
+  height: 16rem;
+  box-shadow: 3px 3px 10px 10px #2c3f6d;
+}
+.MiniChart {
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #1c6ea4;
+  height: 9rem;
+  width: 37rem;
+  box-shadow: 7px 9px 10px 10px #3a5d7e;
+}
+.Goi {
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #1c6ea4;
+  height: 11rem;
+  width: 8%;
+}
+
+.Header {
+  border: 3px solid #1c5ac3;
+  color: blue;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 2px 4px 4px #1c6ea4;
+  text-align: center;
+  border-radius: 3rem;
+  margin: 12px;
+  color: white;
+  padding: 2px;
+}
+
+.flexRow {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.flexColumn {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.Eth {
+  margin: 10px;
+  padding: 10px;
+  background-size: 12px;
+  background-image: url("https://cryptologos.cc/logos/ethereum-eth-logo.svg?v=023");
+  background-repeat: no-repeat;
+  background-size: 1.5rem;
+}
+.Btc {
+  margin: 10px;
+  padding: 10px;
+  background-size: 12px;
+  background-image: url("https://cryptologos.cc/logos/bitcoin-btc-logo.svg?v=023");
+  background-repeat: no-repeat;
+  background-size: 1.5rem;
+}
+.Doge {
+  margin: 10px;
+  padding: 10px;
+  background-size: 12px;
+  background-image: url("https://cryptologos.cc/logos/dogecoin-doge-logo.svg?v=023");
+  background-repeat: no-repeat;
+  background-size: 1.5rem;
+}
+.Ada {
+  margin: 10px;
+  padding: 10px;
+  background-size: 12px;
+  background-image: url("https://cryptologos.cc/logos/cardano-ada-logo.svg?v=023");
+  background-repeat: no-repeat;
+  background-size: 1.5rem;
+}
+.Dai {
+  margin: 10px;
+  padding: 10px;
+  background-size: 12px;
+  background-image: url("https://cryptologos.cc/logos/multi-collateral-dai-dai-logo.svg?v=023");
+  background-repeat: no-repeat;
+  background-size: 1.5rem;
+}
+.Xrp {
+  margin: 10px;
+  padding: 10px;
+  background-size: 12px;
+  background-image: url("https://cryptologos.cc/logos/xrp-xrp-logo.svg?v=023");
+  background-repeat: no-repeat;
+  background-size: 1.5rem;
+}
+.Bnb {
+  margin: 10px;
+  padding: 10px;
+  background-size: 12px;
+  background-image: url("https://cryptologos.cc/logos/bnb-bnb-logo.svg?v=023");
+  background-repeat: no-repeat;
+  background-size: 1.5rem;
+}
+.Sol {
+  margin: 10px;
+  padding: 10px;
+  background-size: 12px;
+  background-image: url("https://cryptologos.cc/logos/solana-sol-logo.svg?v=023");
+  background-repeat: no-repeat;
+  background-size: 1.5rem;
+}
+.Matic {
+  margin: 10px;
+  padding: 10px;
+  background-size: 12px;
+  background-image: url("https://cryptologos.cc/logos/polygon-matic-logo.svg?v=023");
+  background-repeat: no-repeat;
+  background-size: 1.5rem;
+}
+.Dot {
+  margin: 10px;
+  padding: 10px;
+  background-size: 12px;
+  background-image: url("https://cryptologos.cc/logos/polkadot-new-dot-logo.svg?v=023");
+  background-repeat: no-repeat;
+  background-size: 1.5rem;
+}
+.inputForm {
+  width: 9.5rem;
+}
+
+.fearImg {
+  width: "100%";
+  resize: "inline";
+  background: "black";
+}
+
+.tickerNames {
+  margin: 10px;
+  padding: 10px;
+  background-size: 12px;
+}
+
+.News {
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #1c6ea4;
+  width: 22rem;
+  height: 53rem;
+  border-radius: 7px;
+  box-shadow: 3px 3px 10px 10px #7aacce;
+}
+.width-50 {
+  width: 50%;
+}
+
+.tickers-internal {
+  padding: 10px;
+  margin: 5px;
+  border: 2px solid #1c6ea4;
+  border-radius: 10px;
+  height: 6rem;
+  width: 5rem;
+  font-size: 16px;
+  box-shadow: 9px 9px 10px 10px #03000f;
+  font-size: 1rem;
+  box-shadow: 2px 2px 3px 3px #2c3f6d;
+}
