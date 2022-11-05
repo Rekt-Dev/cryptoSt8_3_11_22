@@ -308,7 +308,7 @@ export default function App() {
                 bnbIcon,
                 xrpIcon,
                 adaIcon,
-                solIcon,
+                //solIcon,
                 dogeIcon,
                 dotIcon,
                 daiIcon,
