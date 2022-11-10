@@ -309,7 +309,7 @@ export default function App() {
                 xrpIcon,
                 adaIcon,
                 //solIcon,
-                dogeIcon,
+                //  dogeIcon,
                 dotIcon,
                 daiIcon,
                 dataMessari,
